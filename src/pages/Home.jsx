@@ -17,6 +17,7 @@ const Home = () => {
     let rotation = [0.2, 5.2, 0];
     if (window.innerWidth < 768) {
       screenScale = [4, 4, 4];
+      screenPosition = [-2, -6, -40]
     } else {
       screenScale = [6.5, 6.8, 6];
     }
